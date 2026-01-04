@@ -1,0 +1,29 @@
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Offline Setup">
+
+# Installing Windows 11 without Internet (OOBE Bypass)
+
+## Installation
+
+### Prerequisites
+- ```Windows 11 installation media (USB)```
+- ```Keyboard```
+- ```Brain```
+- ```No active Internet connection```
+
+---
+
+## About this guide
+
+This guide explains how to install **Windows 11 without an Internet connection** and **without signing in to a Microsoft account**.
+
+Windows 11 normally **requires Internet + Microsoft account**, but this can be bypassed during **OOBE (Out-Of-Box Experience)** using a built-in command.
+
+---
+
+## How it works
+
+During OOBE, Windows checks for network connectivity.  
+Using **Shift + F10**, we open Command Prompt and run:
+
+```cmd
+oobe\bypassnro
