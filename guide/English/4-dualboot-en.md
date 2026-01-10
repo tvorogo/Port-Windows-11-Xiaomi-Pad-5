@@ -7,7 +7,7 @@
 ### Prerequisites
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [```UEFI image```](https://github.com/lesadumsev-arch/Port-Windows-11-Xiaomi-Pad-5/releases/download/untagged-98682cff8df2f1374b8a/Mu-nabu.2.img)
+- [```UEFI image```](https://t.me/siliciumnabu/)
 
 - [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
