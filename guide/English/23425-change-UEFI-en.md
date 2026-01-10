@@ -11,7 +11,7 @@
 
 - ```Windows 10(or higher) PC/Laptop```
 
-- [```New UEFI```https://t.me/siliciumnabu/)
+- [```New UEFI```](https://t.me/siliciumnabu/))
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
