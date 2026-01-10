@@ -11,7 +11,7 @@
 
 - ```Windows 10(or higher) PC/Laptop```
 
-- [```New UEFI```](https://github.com/tvorogo/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Uefi)
+- [```New UEFI```https://t.me/siliciumnabu/)
 
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
 
@@ -41,12 +41,7 @@ adb reboot bootloader
 > While in fastboot mode, replace `path\to\recovery.img` with the actual path of the recovery image
 ```cmd
 fastboot boot path\to\recovery.img
-```
-
-### Make a backup of your existing boot image
-```cmd
-adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/normal_boot.img" && adb pull /tmp/normal_boot.img
-```
+```
 
 ### Assign letters to WINNABU and ESPNABU
 > Run the **DriveLetterAssigner** and click **`YES`** to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
