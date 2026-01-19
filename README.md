@@ -17,10 +17,8 @@
 
 
 > [!TIP]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2601.19) (v2601.19)❗**
->
-> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
->
+> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2601.19) (v2601.19)❗**
+> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
 > **❗️REINSTALLING IS REQUIRED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
 
 
