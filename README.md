@@ -16,19 +16,14 @@
 > **If you're not comfortable with modding your tablet or its partition table, or worried about bricking your device, it's okay to take a step back. But the process is simple, so even beginners can handle it. Just follow the instructions carefully, and you should be fine.**
 
 
-> [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
->
-> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+> [!TIP]
+> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2601.19) (v2601.19)❗**
+>
 >
 > [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+>
 >
-> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
->
-> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
->
->
-> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
+> **❗️REINSTALLING IS REQUIRED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
 
 
 > [!WARNING]
@@ -36,24 +31,7 @@
 > 
 > If you do, we will not be able to help you if you mess up.
 
-
-> [!TIP]
-> **Want to see Mi Pad 5 WoA actively maintained and updated?**
->
-> **If anyone here is interested in keeping Mi Pad 5 WoA alive, there's a chance to make it happen:**  
-> A device could be sent to [@remtrik](https://github.com/remtrik) as a surprise — but someone would need to cover the cost.
->
-> The sender doesn't own the device and has no reason to spend money on it personally, but is willing to coordinate the gift.
->
-> **Estimated cost: $70–120**, depending on current listings when enough donations are collected.
->
-> What this would mean:
-> - More driver and UEFI updates
-> - Potential performance improvements
-> - Surprises
->
-> Donations can be made via [BuyMeACoffee](https://buymeacoffee.com/realfooking)  
-> Crypto also accepted — DM [the sog](https://t.me/realfooking) on Telegram for wallet address.
+
 
 
 
@@ -88,9 +66,7 @@
 
 - [**`🔧Fix GPT to Use Windows 24H2 and newer`**](guide/English/fix-gpt-en.md)
 
-- [**`🧱Restoring the Device in EDL Mode`**](guide/English/edl.md)
-
-- [**`🧱Restoring the Device in recovery with new UEFI silicium`**](guide/English/23425-change-UEFI-en.md)
+- [**`🧱Restoring the Device in EDL Mode`**](guide/English/edl.md)
   
 
 
