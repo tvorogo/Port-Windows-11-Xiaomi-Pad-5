@@ -10,12 +10,14 @@
 - [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
-    
-- [```Drivers```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
-
-- [```New Drivers(Optional)```](https://google.com)
 
 - [```UEFI image```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
+
+### Choose version drivers
+
+- [```Old Drivers ```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
+
+- [```New Drivers```](https://google.com)
 
 ### Boot back into the modded recovery
 > Replace `path\to\recovery.img` with the actual path of the recovery image
