@@ -2,10 +2,13 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-## Руководство по двойной загрузке (DualbootKernelPatcher)
-> Ниже перечислены два способа, первый из которых требует прав суперпользователя, а второй — нет. Используйте тот способ, который вам больше нравится, так как оба они выполняют одну и ту же функцию.
 > [!WARNING]
 > Dualboot KernelPatcher в данный момент не работает на части планшетов (Windows не загружается). Если вы раньше использовали этот метод, восстановите ваш оригинальный boot.img и используйте метод с [WOA Helper](/guide/Russian/4-dualboot-ru.md) для двойной загрузки Windows и Android.
+
+## Руководство по двойной загрузке (DualbootKernelPatcher)
+> Ниже перечислены два способа, первый из которых требует прав суперпользователя, а второй — нет. Используйте тот способ, который вам больше нравится, так как оба они выполняют одну и ту же функцию.
+
+
 <details>
   <summary><strong>Способ 1 (требуется root-доступ)</strong></summary>  
   
@@ -34,11 +37,11 @@
 ### Требования
 - [Модифицированный образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [Magiskboot](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/magiskboot.exe)
+- [Magiskboot](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/magiskboot.exe)
 
-- [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/DualBootKernelPatcher.zip)
+- [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/DualBootKernelPatcher.zip)
 
-- [.fd файл](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/nabu.fd)
+- [.fd файл](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/nabu.fd)
 
 ### Открытие CMD от имени администратора
 > Откройте командную строку от имени **администратора**, затем выполните приведенную ниже команду, заменив `путь\к\platform-tools` на фактический путь к папке с платформенными инструментами, например **C:\platform-tools**.
