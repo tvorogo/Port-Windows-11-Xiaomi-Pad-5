@@ -102,7 +102,7 @@ adb reboot bootloader
 ```
 
 #### Прошивка UEFI
-> Переконайтеся, що ви використовуєте UEFI no secureboot із цієї сторінки, замініть <path\to\uefi-NoSecureboot-v3.img> фактичним шляхом до образу UEFI
+> Переконайтеся, що ви використовуєте UEFI no secureboot із цієї сторінки, замініть <path\to\uefi-NoSecureboot-v4.img> фактичним шляхом до образу UEFI
 ```cmd
 fastboot flash boot <шлях\до\uefi-NoSecureboot-v4.img>
 ```
