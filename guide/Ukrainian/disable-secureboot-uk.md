@@ -70,7 +70,7 @@ sel vol <номер>
 
 #### Призначити літеру Y
 ```diskpart
-присвоїти букву у
+assign letter=y
 ```
 
 #### Вийти з diskpart
@@ -104,7 +104,7 @@ adb reboot bootloader
 #### Прошивка UEFI
 > Переконайтеся, що ви використовуєте UEFI no secureboot із цієї сторінки, замініть <path\to\uefi-NoSecureboot-v3.img> фактичним шляхом до образу UEFI
 ```cmd
-fastboot flash boot <шлях\до\uefi-NoSecureboot-v3.img>
+fastboot flash boot <шлях\до\uefi-NoSecureboot-v4.img>
 ```
 > [!Важливо]
 > Обов’язково замініть свій старий UEFI у папці UEFI у внутрішній пам’яті Android, щоб випадково не перепрошити його наступного разу, коли спробуєте перейти на Windows з Android

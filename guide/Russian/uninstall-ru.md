@@ -30,9 +30,9 @@ adb reboot bootloader
 ### Требования
 - [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Моддифицированый образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win) 
+- [```Модифицированный образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win) 
 
-#### Загрузка в моддифицированый recovery
+#### Загрузка в модифицированный recovery
 > Замените ```путь\к\recovery.img``` на физический путь к recovery.img
 ```cmd
 fastboot boot путь\к\recovery.img

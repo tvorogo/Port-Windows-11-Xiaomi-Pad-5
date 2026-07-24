@@ -18,9 +18,9 @@
 - Підключіть його до ПК/ноутбука за допомогою кабелю
 
 ### Завантажте модифіковане відновлення
-> У режимі fastboot замініть `path\to\recovery.img` на фактичний шлях до образу відновлення
+> У режимі fastboot замініть `шлях\до\recovery.img` на фактичний шлях до образу відновлення
 ```cmd
-fastboot boot fastboot\до\recovery.img
+fastboot boot шлях\до\recovery.img
 ```
 
 ### Прошийте magisk
