@@ -37,9 +37,9 @@
   <details>
    <summary><strong>Method 1: Using HyperSploit Bypass (Recommended) </strong></summary>
 
-**This method will Bypass the daily quota limit while appling in the Mi Community app.**
+**This method will Bypass the daily quota limit while applying in the Mi Community app.**
 
-### Add platfrom tools to PATH (for HyperSploit to work)
+### Add platform tools to PATH (for HyperSploit to work)
 - Open **`PowerShell`** as admin and run:
 ```powershell
 irm https://s.tx0.su/getadb | iex
