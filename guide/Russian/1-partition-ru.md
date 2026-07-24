@@ -167,7 +167,7 @@ adb shell fixgpt
 >
 > Если нет, перезагрузите устройство в режим **recovery** и **выполните сброс до заводских настроек**
 ```cmd
-adb reboot recovery
+adb reboot
 ```
 
 ### [Следующий шаг: получение root-прав на вашем устройстве](/guide/Russian/2-rootguide-ru.md)

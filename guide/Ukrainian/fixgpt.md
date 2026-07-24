@@ -21,13 +21,13 @@
 - Завантажте свій NABU в **режим fastboot**, утримуючи кнопку **`зменшення гучності`** під час перезавантаження з допомогою під’єднаним кабелем USB
 - Або, якщо у вас увімкнено налагодження USB, виконайте у Android наведену нижче команду:
 ```cmd
-adb reboot bootloder
+adb reboot bootloader
 ```
 
 ### Завантажте модифіковане відновлення
-> Замініть `path\to\recovery.img` на фактичний шлях до завантаженого **recovery.img**
+> Замініть `шлях\до\recovery.img` на фактичний шлях до завантаженого **recovery.img**
 ```cmd
-fastboot boot fastboot\до\recovery.img
+fastboot boot шлях\до\recovery.img
 ```
 
 ### Виправлення GPT

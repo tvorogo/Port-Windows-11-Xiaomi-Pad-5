@@ -7,7 +7,7 @@
 ### Требования:
 - [```Уже установленная Windows```](selection-ru.md)
 
-- [```Образ реквавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
@@ -24,7 +24,7 @@
 adb reboot bootloader
 ```
 
-### Загрузка в модифицированый рекавери
+### Загрузка в модифицированный рекавери
 > Замените `путь\к\recovery.img` на фактический путь к загруженному файлу **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img

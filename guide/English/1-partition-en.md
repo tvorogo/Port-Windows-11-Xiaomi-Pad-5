@@ -35,7 +35,7 @@ cd "path\to\platform-tools"
 > [!Note]
 > If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting-en.md#device-is-not-recognized-in-fastboot-or-recovery)
 
-#### Reboot into fastboot mkde
+#### Reboot into fastboot mode
 - Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
 - Alternatively, run the below command while booted in Android
 ```cmd
