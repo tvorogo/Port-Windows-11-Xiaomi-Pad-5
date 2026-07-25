@@ -5,9 +5,9 @@
 ## Исправление GPT для безопасного использования Windows 24H2
 
 ### Требования:
-- [```Уже установленная Windows```](selection-ru.md)
+- [```Установленная Windows```]
 
-- [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
