@@ -78,22 +78,15 @@ fastboot oem edl
 <details>
   <summary><strong>Method 2: Paid EDL method</strong></summary>
 
-## Method 2: Paid Flashing via HXRU Tool
+## Method 2: Paid Flashing via Tool
 
 ### Prerequisites 
 - `$3 USDT` and a crypto wallet for credits (some Russian bank accounts are also accepted)
 
 - `Telegram account` for communication with HXRU support
 
-- [`MiFlash HXRU Tool`](https://hxrutool.net/tool/Xiaomi_Auth_Tool_v9.0.0.5_mtk.zip)
  
 - [`Stock fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/)  
-### Setting up HXRU Tool  
-- Create an account on **[HXRU dashboard](https://dashboard.hxrutool.com/Register)**.
-- Download and extract the **MiFlash HXRU** tool.
-
-#### Buy Credits 
-- Contact **@hxruofficial** on Telegram to purchase **5 credits** (approx. **$3**). You need these credits to proceed with flashing your device.
 
 ### Flashing your device
 - Open **XiaoMiFlash.exe** and grant it administrator access.
