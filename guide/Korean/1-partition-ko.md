@@ -13,7 +13,7 @@
 
 - [```안드로이드 플랫폼 도구```](https://developer.android.com/studio/releases/platform-tools)
   
-- [```맞춤화된 리커버리 이미지```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```맞춤형 이미지 recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 ### 메모:
 >[!NOTE]
