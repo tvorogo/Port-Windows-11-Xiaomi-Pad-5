@@ -24,17 +24,14 @@
 
 ##### Готово!
 
-## Устройство загружается в Android, но не может загрузиться в загрузчик
+## Устройство загружается в Android, но не может загрузиться в fastboot
 
 ### Требования:
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
 - [TWRP Recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-> [!Important]
-> Это сработает, только если у вас есть root-доступ. Если нет, единственный способ восстановить — прошить устройство из EDL с помощью [MrAuthTool](https://mrauthtool.com/)
-
-- Удалите образ **UEFI** из папки UEFI во внутреннем хранилище, затем поместите сюда образ **SHRP recovery**
+- Удалите образ **UEFI** из папки UEFI во внутреннем хранилище, затем поместите сюда образ **TWRP recovery**
 - Нажмите `БЫСТРАЯ ЗАГРУЗКА В WINDOWS` в приложении WOA Helper
 - После загрузки в режим recovery подключите устройство к ПК и выполните:
 ```cmd
