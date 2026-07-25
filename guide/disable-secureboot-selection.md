@@ -6,7 +6,5 @@
 
 ### Select your language
 - [**`English`**](English/disable-secureboot-en.md)
-- [**`Tiếng Việt`**](Vietnamese/disable-secureboot-vi.md)
 - [**`Russian`**](Russian/disable-secureboot-ru.md)
 - [**`Ukrainian`**](Ukrainian/disable-secureboot-uk.md)
-- [**`Korean`**](Korean/disable-secureboot-ko.md)

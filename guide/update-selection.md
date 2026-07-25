@@ -7,7 +7,5 @@
 ### Select your language
 
 - [**`English`**](English/update-en.md)
-- [**`Tiếng Việt`**](Vietnamese/update-vi.md)
 - [**`Russian`**](Russian/update-ru.md)
 - [**`Ukrainian`**](Ukrainian/update-uk.md)
-- [**`Korean`**](Korean/update-ko.md)
