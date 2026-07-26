@@ -26,6 +26,9 @@
 
 ## Устройство загружается в Android, но не может загрузиться в fastboot
 
+> [!Important]
+> Это сработает, только если у вас есть root-доступ. Если нет, единственный способ восстановить — прошить устройство в режиме EDL
+
 ### Требования:
 - [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
 
