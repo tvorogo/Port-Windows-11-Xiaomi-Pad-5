@@ -2,12 +2,12 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-## Исправление GPT для безопасного использования Windows 24H2
+## Исправление GPT для использования Windows 24H2 и выше
 
 ### Требования:
-- [```Уже установленная Windows```](selection-ru.md)
+- ```Установленная Windows```
 
-- [```Образ реквавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
@@ -24,7 +24,7 @@
 adb reboot bootloader
 ```
 
-### Загрузка в модифицированый рекавери
+### Загрузка в модифицированный рекавери
 > Замените `путь\к\recovery.img` на фактический путь к загруженному файлу **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img

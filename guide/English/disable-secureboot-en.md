@@ -103,9 +103,9 @@ adb reboot bootloader
 ```
 
 #### Flashing the UEFI
-> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-NoSecureboot-v3.img> with the actual path to the UEFI image
+> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-NoSecureboot-v4.img> with the actual path to the UEFI image
 ```cmd
-fastboot flash boot <path\to\uefi-NoSecureboot-v3.img>
+fastboot flash boot <path\to\uefi-NoSecureboot-v4.img>
 ```
 
 > [!Important]

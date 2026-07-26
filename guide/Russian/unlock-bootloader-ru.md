@@ -44,10 +44,10 @@
     
   **Этот метод позволит обойти ограничение дневной квоты при использовании приложения Mi Community.**
 
-  ### Добавьте platfrom tools в PATH (для правильной работы HyperSploit)
+  ### Добавьте platform tools в PATH (для правильной работы HyperSploit)
   - Откройте **`PowerShell`** от имени администратора и выполните:
   ```powershell
-  irm https://s.tx0.su/getadb | iex
+winget install Google.PlatformTools
   ```
   - Дождитесь завершения, затем закройте PowerShell.
 

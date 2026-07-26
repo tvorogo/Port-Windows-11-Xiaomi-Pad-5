@@ -15,7 +15,7 @@
   
 - [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```Androis platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
 ### Перезагрузите в **fastboot**
 - Загрузите планшет в **fastboot**, удерживая кнопку **громкости вниз** во время перезагрузки
