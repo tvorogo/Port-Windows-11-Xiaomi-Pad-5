@@ -4,7 +4,7 @@
 
 ## Отключение SecureBoot 
 >[!WARNING]
-> Данное руководство предназначено только для версии драйверов ниже 2601.19.
+> Данное руководство предназначено только для версии драйверов ниже V4.
 
 > [!Important]
 > Следуйте этому руководству, только если вы хотите отключить SecureBoot.
@@ -14,7 +14,7 @@
 
 - [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 - [```Образ UEFI с выключенным SecureBoot```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/2501.27/nabu-uefi-v4-fixed_NOSB.img)
 
