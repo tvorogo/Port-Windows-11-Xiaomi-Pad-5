@@ -7,7 +7,7 @@
 ### Передумови
 - ```Функціонуючий мозок (серйозно, вам потрібно буде подумати!)```
 
-- [```Android plaform-tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android plaform-tools```](troubleshooting-uk.md#adb-fastboot-not-recognized-uk)
 
 - [```ADB драйвери, встановлені на вашому ПК```](https://dl.google.com/android/repository/usb_driver_r13-windows.zip)
 

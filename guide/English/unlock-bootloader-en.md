@@ -42,9 +42,9 @@
 ### Add platform tools to PATH (for HyperSploit to work)
 - Open **`PowerShell`** as admin and run:
 ```powershell
-irm https://s.tx0.su/getadb | iex
+winget install Google.PlatformTools
 ```
-- Wait for it to complete then close PowerShell app.
+- Wait for it to complete, then close PowerShell.
 
 ### Apply to Unlock (HyperSploit)
 - Run **HyperSploit-Windows.exe** as Administrator.

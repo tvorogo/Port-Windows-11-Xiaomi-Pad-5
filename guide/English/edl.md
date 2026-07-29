@@ -85,7 +85,6 @@ fastboot oem edl
 
 - `Telegram account` for communication with HXRU support
 
- 
 - [`Stock fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/)  
 
 ### Flashing your device

@@ -9,6 +9,18 @@
 If you are unable to move files to the Windows folder, it means you shut down Windows instead of restarting it. To fix this issue, boot back to Windows and use restart, then as it restarts boot to fastboot and use it to return to Android
 
 ##### Done!
+
+## adb or fastboot is not recognized as an internal or external command <a id="adb-fastboot-not-recognized"></a>
+If your terminal says `adb` or `fastboot` _is not recognized as an internal or external command_, install Android platform tools first:
+```powershell
+winget install Google.PlatformTools
+```
+- Wait for the installation to finish, then close and reopen PowerShell or Command Prompt.
+
+> If you installed them manually, make sure the platform-tools folder is added to your system PATH.
+
+##### Done!
+
 ## Device is not recognized in fastboot or recovery mode by my PC/Laptop what should I do?
 > This likely means you don't have (proper) USB drivers installed
 - Download [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) here and extract it.
@@ -29,13 +41,16 @@ Charging in Windows only works on specific cables. Cables that have been known t
 ## Device can boot into Android and/or Windows but not bootloader
 
 ### Prerequisites:
-- [Termux](https://play.google.com/store/apps/details?id=com.termux)
+- [`Termux`](https://play.google.com/store/apps/details?id=com.termux)
 
-- [Android platform tools](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-en.md#adb-fastboot-not-recognized)
 
-- [SHRP Recovery](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/SHRP.img)
+- [`TWRP Recovery`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 #### If you have access to Android:
+> [!Important]
+> It will only work if you have root access.
+
 - Install **Termux** and grant it root access.
 - Install **tsu** and **parted** using these two commands, press `Y` if it asks you to confirm:
 ```cmd
@@ -58,8 +73,8 @@ parted /dev/block/sda
 
 #### If you have access to Windows:
 - Rename **C:\boot.img** to **C:\bootb.img**.
-- Download the **SHRP recovery** image, rename it to **boot.img**, and place it in `C:\`.
-- Run the **Switch to Android** or **Android** shortcut to flash and boot into SHRP recovery.
+- Download the **TWRP recovery** image, rename it to **boot.img**, and place it in `C:\`.
+- Run the **Switch to Android** or **Android** shortcut to flash and boot into TWRP recovery.
 - Once booted into the recovery, connect your device to your PC and run:
 ```cmd
 adb shell parted /dev/block/sda
@@ -72,7 +87,7 @@ adb shell parted /dev/block/sda
 - You may have to do the same for **boot_b** if your device does not boot, or if it boots back to the recovery.
 
 > [!important]
-> Make sure to put the UEFI image back into the UEFI folder, or if you used the Windows method, the boot.img in C:\
+> If you used Windows method, make sure to delete boot.img file in C:\ and rename **C:\bootb.img** back to **C:\boot.img** after finishing.
 
 ##### Done!
 

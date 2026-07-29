@@ -16,7 +16,7 @@ If you don't like your Windows version or you've bricked your Windows install, o
 
 - [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-en.md#adb-fastboot-not-recognized)
 
 #### Reboot into fastboot mode
 - Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected

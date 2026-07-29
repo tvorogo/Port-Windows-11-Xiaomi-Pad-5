@@ -11,8 +11,6 @@
 
 - ```Windows 10(or higher) PC/Laptop```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
-
 - [```Modified recovery image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 ### Notes:
@@ -24,20 +22,24 @@
 > 
 > DO NOT REBOOT YOUR TABLET if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/nabuwoa)
 
-### Opening CMD as an administrator
-> [!NOTE]
-> Don't know how to start? Unzip the downloaded [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), then open ```command prompt``` as an administrator and run the following command, replacing `"path\to\platform-tools"` with the actual path of the platform tools folder
-```cmd
-cd "path\to\platform-tools"
+---
+
+### Getting started
+
+### Installing Android platform tools
+- Open `PowerShell` as an administrator and run the following command:
+```powershell
+winget install Google.PlatformTools
 ```
-> Use this window throughout the entire guide. Do not close it.
+> Wait for the installation to finish, then close PowerShell.
+> This installs `adb` and `fastboot` and adds them to your system PATH.
 
 > [!Note]
 > If your device is not detected in fastboot or recovery mode, you'll have to install USB drivers [using this guide](troubleshooting-en.md#device-is-not-recognized-in-fastboot-or-recovery)
 
 #### Reboot into fastboot mode
 - Boot your NABU into **fastboot mode** by holding down the **`volume down`** button while rebooting with a USB cable connected
-- Alternatively, run the below command while booted in Android
+- Or, if you have USB debugging enabled, run the below command while booted into Android.
 ```cmd
 adb reboot bootloader
 ```
@@ -174,7 +176,7 @@ adb shell partition $
 
 </details>
 
-----
+---
 
 
 

@@ -9,7 +9,7 @@
 
 - [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
 > [!Important]
 > Если вы хотите безопасно использовать Windows 24H2, выполните следующие действия, чтобы избежать проблем с EDL.
@@ -24,7 +24,7 @@
 adb reboot bootloader
 ```
 
-### Загрузка в модифицированный рекавери
+### Загрузка в модифицированный recovery
 > Замените `путь\к\recovery.img` на фактический путь к загруженному файлу **recovery.img**
 ```cmd
 fastboot boot путь\к\recovery.img

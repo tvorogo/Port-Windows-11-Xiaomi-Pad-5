@@ -7,9 +7,9 @@
 ### Передумови:
 - [```Вже встановлена ​​Windows```](/guide/Ukrainian/selection-uk.md)
 
-- [```Образ відновлення```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```platform-tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-uk.md#adb-fastboot-not-recognized-uk)
 
 > [!Warning]
 > Якщо ви хочете безпечно використовувати Windows 24H2, виконайте ці кроки, щоб уникнути проблем з EDL.

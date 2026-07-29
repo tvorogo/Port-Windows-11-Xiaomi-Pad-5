@@ -6,9 +6,9 @@
 Цей розділ проведе вас через процес повторного рутування, коли MIUI/Hyper OS оновлюється та видаляє root
 
 ### Потрібні файли
-- [```Образ відновлення```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```Android platform-tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-uk.md#adb-fastboot-not-recognized-uk)
 
 - [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
 

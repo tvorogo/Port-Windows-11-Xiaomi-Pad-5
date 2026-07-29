@@ -8,7 +8,7 @@ This section will guide you through the re-rooting process for when MIUI/Hyper O
 ### Prerequisites
 - [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```Android Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-en.md#adb-fastboot-not-recognized)
 
 - [```Magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
   

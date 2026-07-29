@@ -39,11 +39,11 @@ fastboot oem edl
 ## Прошивка
 
 ### Передумови
-- `Виправлений Mi Flash` (https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/Files/miflashpatched.zip)
+- [`Виправлений Mi Flash`](https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/Files/miflashpatched.zip)
 
-- `Виправлений firehose (.elf) файл` (https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
+- [`Виправлений firehose (.elf) файл`](https://github.com/erdils/port-windows-11-xiaomi-pad-5/release/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
 
-- `Розпакована Fastboot прошивка для планшету` (http://xmfirmwareupdater.com/miui/nabu/)
+- `Розпакована` [`Fastboot прошивка для планшету`](http://xmfirmwareupdater.com/miui/nabu/)
 
 ### Підготовка необхідних файлів
 - Розпакуйте **Fastboot прошивку** для вашого плашнету Xiaomi Pad 5.

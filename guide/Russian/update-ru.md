@@ -9,11 +9,11 @@
 > Использование её для обновления до этой версии **может привести к проблемам или неработоспособности системы** по заявлению мейнтейнера.
 
 ### Требования
-- [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
+- [`Android platform-tools`](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
-- [Образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [`Образ recovery`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [Образ UEFI & Драйверы](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
+- [`Образ UEFI & Драйверы`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 
 
 ### Загрузитесь в recovery

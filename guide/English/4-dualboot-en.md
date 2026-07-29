@@ -30,7 +30,8 @@
 
 - Download and install the **WOA Helper** app, then open it and grant it root access.
 - Download the **UEFI image** and place it inside the folder named `UEFI` in your internal storage.
-- Open the WOA Helper app and press the **QUICKBOOT TO WINDOWS** button.
+- Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
+- Press the **QUICKBOOT TO WINDOWS** button.
 
 ### Setup - Windows
 > [!Tip]
@@ -44,8 +45,8 @@
   
 ## Finished!
 
-
-
+> [!TIP]
+> Don't forget to check out [**```Useful apps and instructions```**](Additional-materials-en.md) page. You'll find a guide on how to activate your Windows, as well as other helpful information.
 
 
 

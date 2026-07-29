@@ -6,9 +6,9 @@
 В этом разделе мы подробно рассмотрим процесс повторного получения root-прав на вашем устройстве после обновления MIUI/Hyper OS, либо другой прошивки, после которого root-доступ был утрачен.
 
 ### Требования
-- [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```SDK Platform Tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
 - [```magisk.apk```](https://github.com/topjohnwu/Magisk/releases/latest)
   
@@ -17,8 +17,8 @@
 
 - Подключите его к ПК/ноутбуку с помощью кабеля
 
-### Загрузитесь в модифицированный рекавери
-> Находясь в fastboot, замените `путь\к\recovery.img` фактическим путём к образу рекавери
+### Загрузитесь в модифицированный recovery
+> Находясь в fastboot, замените `путь\к\recovery.img` фактическим путём к образу recovery
 ```cmd
 fastboot boot путь\к\recovery.img
 ```
@@ -42,12 +42,8 @@ adb reboot
 
 ### Обновите boot.img в Windows на диске C:\
 - Перезагрузитесь обратно в Android 
-- Откройте приложение ```WOA Helper```
-- Смонтируйте ```Windows```
-- Откройте любой проводник и отройте папку ```Windows``` во внутренней памяти планшета
-- Удалите ```boot.img```
-- Создайте копию вашего ```boot.img``` в приложении ```WOA Helper``` используя ```РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА```
-
+- Откройте ```WOA Helper```
+- Нажмите ```РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА``` > ```Windows```
 
 ## Готово!
 

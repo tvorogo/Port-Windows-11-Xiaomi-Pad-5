@@ -14,7 +14,7 @@
 ### Prerequisites
 - ```Brain```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-en.md#adb-fastboot-not-recognized)
 
 - [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 

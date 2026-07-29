@@ -13,7 +13,7 @@
 ### Передумови
 - ```Мозок```
 
-- [```Android platform-tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-uk.md#adb-fastboot-not-recognized-uk)
 
 - [```Образ відновлення```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 

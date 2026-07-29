@@ -8,7 +8,7 @@
 | Feature                | Notes                                           | Status         |
 |------------------------|-------------------------------------------------|----------------|
 | 🔊 Audio               |                                                 | ✅            |
-| 🔋 Battery             | May occasionally report incorrect values        | ✅            |
+| 🔋 Battery             |                                                 | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
 | 👆 Touch               | 10-point Multi-touch                            | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
@@ -16,7 +16,7 @@
 | 🔵 Bluetooth           |                                                 | ✅            |
 | 🛜 Wi-Fi               |                                                 | ✅            |
 | ⌨️ Side buttons        |                                                 | ✅            |
-| 🖊 Accessories         | Mostly working, with some limitations           | ⚠️            |
+| 🖊 Accessories          | Mostly working, with some limitations           | ⚠️            |
 | 🛡️ Security            | Partial                                         | ⚠️            |
 | 🛰️ Location            |                                                 | ✅            |
 | 🧭 Sensors             |                                                 | ✅            |

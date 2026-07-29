@@ -14,7 +14,7 @@
 
 - [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```Android platform-tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-uk.md#adb-fastboot-not-recognized-uk)
 
 ### Завантаження у відновлення для форматування основного і завантажувального розділа Windows
 

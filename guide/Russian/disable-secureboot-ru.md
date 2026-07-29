@@ -12,7 +12,7 @@
 ### Требования
 - ```Мозг```
 
-- [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
 - [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
@@ -38,13 +38,13 @@
 #### Создайте резервную копию рутированного boot-образа.
 > Она вам понадобится для возврата к Android, но вы можете пропустить этот шаг, если уже создали резервную копию.
 
-Используйте функцию `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` в приложении WOA Helper или загрузитесь в модифицированное рекавери и выполните команду
+Используйте функцию `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` в приложении WOA Helper или загрузитесь в модифицированное recovery и выполните команду
 ```cmd
 adb shell "dd if=/dev/block/platform/soc/1d84000.ufshc/by-name/boot$(getprop ro.boot.slot_suffix) of=/tmp/rooted_boot.img" && adb pull /tmp/rooted_boot.img
 ```
 
-#### Загрузитесь в рекавери
-> Замените `путь\к\recovery.img` на фактический путь к образу рекавери
+#### Загрузитесь в recovery
+> Замените `путь\к\recovery.img` на фактический путь к образу recovery
 ```cmd
 fastboot boot путь\к\recovery.img
 ```

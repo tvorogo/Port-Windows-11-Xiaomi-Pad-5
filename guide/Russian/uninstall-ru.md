@@ -28,7 +28,7 @@ adb reboot bootloader
   <summary><strong>Способ 1 - Удаление с помощью adb shell restore</strong></summary>
 
 ### Требования
-- [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
 - [```Модифицированный образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win) 
 
@@ -57,7 +57,7 @@ adb reboot
   <summary><strong>Способ 2 - Удаление в fastboot</strong></summary>
 
 ### Требования
-- [```SDK platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform-tools```](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
 - [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/gpt_both0.bin) 
 
@@ -103,12 +103,13 @@ fastboot reboot
 - Прокрутите вверх и нажмите кнопку **`Reboot Device`** для перезагрузки устройства.
 
 
- ### Если ваше устройство **перезагрузилось в режиме recovery** после удаления Windows, выполните следующие действия:
-
-- Прокрутите вниз до раздела **`Format/wipe make Partition Stock`**.
-- В поле ввода введите **`FORMAT`**.
-- Наконец, нажмите кнопку **`Format/Wipe`**.
-- После успешной очистки данных нажмите прокрутите вверх и нажмите кнопку **`Reboot Device`** для перезагрузки устройства.
+> [!NOTE]
+> Если ваше устройство **перезагрузилось в recovery** после удаления Windows, выполните следующие действия:
+> 1. Выберите **Wipe Data/Factory reset**
+> 2. **Wipe All Data**
+> 3. После успешного удаления данных нажмите **Back To Main Menu**
+> 4. Нажмите **Reboot**
+> 5. Перезагрузитесь в System
 
 ## Готово!
 

@@ -9,7 +9,7 @@
 > Dualboot Kernelpatcher currently does not work for 50% of users (Windows does not boot). If this applies to you, restore your original boot.img and use [the WOA Helper method](/guide/English/4-dualboot-en.md) to dualboot Windows and Android.
 
 ### Prerequisites (method 1: root required)
-- [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK)
+- [`WOA Helper app`](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ### Setup - Android
 - Download and install the **WOA Helper** app, then open it and grant it root access.
@@ -26,13 +26,13 @@
 
 
 ### Prerequisites (method 2: no root required)
-- [Modified recovery image](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [`Modified recovery image`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [Magiskboot](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/magiskboot.exe)
+- [`Magiskboot`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/magiskboot.exe)
 
-- [DualBoot Kernel Patcher](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/DualBootKernelPatcher.zip)
+- [`DualBoot Kernel Patcher`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/DualBootKernelPatcher.zip)
 
-- [.fd file](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/nabu.fd)
+- [`.fd file`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/nabu.fd)
 
 ### Opening CMD as an admin
 > Open CMD as an **administrator**, then run the below command, replacing `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.

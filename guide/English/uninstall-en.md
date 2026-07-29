@@ -28,7 +28,7 @@ adb reboot bootloader
   <summary><strong>Method 1 - Uninstall using adb shell restore</strong></summary>
 
 ### Prerequisites
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-en.md#adb-fastboot-not-recognized)
 
 - [```Modified Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win) 
 
@@ -59,7 +59,7 @@ adb reboot
   <summary><strong>Method 2 - Uninstall in fastboot</strong></summary>
 
 ### Prerequisites
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-en.md#adb-fastboot-not-recognized)
 
 - [```gpt_both0.bin```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/gpt_both0.bin) 
 

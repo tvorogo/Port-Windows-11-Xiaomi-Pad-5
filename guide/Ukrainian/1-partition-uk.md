@@ -9,8 +9,6 @@
 
 - ```Windows 10(або вище) ПК/Ноутбук```
 
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
-
 - [```Модифікований образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 ### Примітки:
@@ -22,16 +20,20 @@
 > 
 > НЕ ПЕРЕЗАПУСКАЙТЕ ПЛАНШЕТ, якщо ви думаєте що зробили помилку, запитайте допомоги в [Telegram чаті](https://t.me/nabuwoa)
 
-### Відкрийте CMD з правами адміністратора
-> [!NOTE]
-> Не знаєте як почати? Розархівуйте завантажений [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools), після цього відкрийте ```командний рядок``` з правами адміністратора і виконайте наступні команди, замінюючи `"шлях\до\platform-tools"` з актуальним шляхом до папки platform tools
-```cmd
-cd "шлях\до\platform-tools"
+---
+
+## Початок роботи
+
+### Встановлення Android platform-tools
+- Відкрийте `PowerShell` від імені адміністратора і виконайте наступну команду:
+```powershell
+winget install Google.PlatformTools
 ```
-> Використовуйте це вікно протягом всього гайду. Не закривайте його.
+> Дочекайтеся завершення встановлення, потім закрийте PowerShell.
+> Це встановить `adb` і `fastboot` і додасть їх до системного PATH.
 
 > [!Note]
-> Якщо пристрій не визначається в режимі fastboot або recovery, встановіть USB-драйвери [за цим гайдом](troubleshooting-en.md#device-is-not-recognized-in-fastboot-or-recovery)
+> Якщо пристрій не визначається в режимі fastboot або recovery, встановіть USB-драйвери [за цим гайдом](troubleshooting-uk.md#Пристрій-не-розпізнається-в-режимах-fastboot-або-recovery-на-моєму-ПК/ноутбуці.-Що-робити?)
 
 #### Перезавантаження в режим fastboot
 - Запустіть свій NABU в **режим fastboot** тримаючи кнопку **`зменшення гучності`** під час перезавантаження з підключеним USB кабелем

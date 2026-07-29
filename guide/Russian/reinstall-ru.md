@@ -13,16 +13,16 @@
 
 - ```Существующие разделы для Windows и загрузки``` (*если их нет, [используйте данную инструкцию](/guide/Russian/partition-ru.md)*)
   
-- [```Образ рекавери```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
+- [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   
-- [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
+- [```Android platform tools```](troubleshooting-ru.md#adb-fastboot-not-recognized-ru)
 
 ### Перезагрузите в **fastboot**
 - Загрузите планшет в **fastboot**, удерживая кнопку **громкости вниз** во время перезагрузки
 
 - Подключите его к ПК/ноутбуку с помощью кабеля
 
-### Запустите рекавери для форматирования разделов
+### Запустите recovery для форматирования разделов
 
 ```cmd
 fastboot boot путь/к/recovery.img

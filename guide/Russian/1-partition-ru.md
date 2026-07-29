@@ -11,8 +11,6 @@
 
 - ```ПК/Ноутбук c Windows 10(или выше)```
 
-- [```SDK platform-tools```](https://developer.android.com/studio/releases/platform-tools)
-
 - [```Модифицированный образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
 ### Заметки:
@@ -24,12 +22,17 @@
 > 
 >  Если вы считаете, что допустили ошибку, НЕ ПЕРЕЗАГРУЖАЙТЕ ПЛАНШЕТ: обратитесь за помощью в [чат Telegram](https://t.me/nabuwoaru)
 
-### Откройте CMD от имени администратора
-- Распакуйте загруженные [```SDK platform-tools```](https://developer.android.com/studio/releases/platform-tools), затем откройте командную строку от имени администратора и запустите следующую команду, заменив `путь\к\platform-tools` на фактический путь к папке platform tools
-```cmd
-cd путь\к\platform-tools
+---
+
+## Начнём
+
+### Установка Android platform-tools
+- Откройте `PowerShell` от имени администратора и выполните следующую команду:
+```powershell
+winget install Google.PlatformTools
 ```
-- Используйте это окно на протяжении всего руководства. Не закрывайте его.
+> Дождитесь завершения установки, затем закройте PowerShell.
+> Это установит `adb` и `fastboot` и добавит их в системный PATH.
 
 #### Перезагрузка в fastboot 
 - Перезагрузите NABU в **fastboot**, удерживая нажатой кнопку **`уменьшения громкости`** во время перезагрузки с подключенным USB-кабелем.
