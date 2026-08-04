@@ -85,7 +85,7 @@ fastboot oem edl
 
 - `Телеграм аккаунт` для связи со службой поддержки
 
-- [`Кредиты в любом auth tool`]
+- `Кредиты в любом auth tool`
  
 - [`Стоковая fastboot прошивка для Nabu`](http://xmfirmwareupdater.com/miui/nabu/)  
 
