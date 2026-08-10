@@ -27,7 +27,7 @@ fastboot oem edl
 
 - Insert an **EDL cable** if you have one into your device and press the button on the cable to boot into **EDL mode**.
 > EDL cables that can be found online which should work must include V2 in the name, for example **Hydra V2 EDL Cable**.
-- Alternatively, **short the test points** (requires opening the back panel of your device).
+- Alternatively, **short the test points** (To do this, you need to disassemble the tablet through the display; instructions can be found on YouTube).
 
 </details>
 
@@ -50,7 +50,7 @@ fastboot oem edl
 
 - [`Patched firehose (.elf) file`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/prog_ufs_firehose_sm7150_ddr.elf)
 
-- `Extracted` [`fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/) 
+- `Extracted` [`fastboot ROM for Nabu`](https://hyperos.fans/en/devices/nabu)
 
 ### Preparing necessary files
 - Unzip the **fastboot ROM** for your Xiaomi Pad 5.
@@ -73,39 +73,27 @@ fastboot oem edl
 #### Reboot the device
 - Once the flashing is complete, click the **Reboot** button to restart the device.
 
+---
+
 </details>
 
 <details>
   <summary><strong>Method 2: Paid EDL method</strong></summary>
 
-## Method 2: Paid Flashing via Tool
+## Method 2: Paid flashing with @antoshkagsm
 
-### Prerequisites 
-- `$3 USDT` and a crypto wallet for credits (some Russian bank accounts are also accepted)
+### Prerequisites
+- `7 USDT` and a crypto wallet for payment
 
-- `Telegram account` for communication with HXRU support
+- `Telegram account` for communication
 
-- [`Stock fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/)  
+- [`Stock fastboot ROM for Nabu`](https://hyperos.fans/en/devices/nabu)
 
-### Flashing your device
-- Open **XiaoMiFlash.exe** and grant it administrator access.
-- Download the stock fastboot rom for your device (which should have a .tgz extension) and open it. Inside there should be a .tar file. Extract the contents of this .tar file into any folder.
-- Click the **select** button in **XiaoMiFlash** and select this folder.
-- Press **flash**.
-- If you get a `write time out` error, hold the **power** + **volume down** button for +- 30 seconds to reboot EDL. After this press the **flash** button again.
-- After a few seconds a login popup should show up. Enter your HRXU account details here and press **Request Auth Flashing**.
-
-#### Reboot the device
-- After it says **flash done**, reboot your device by holding **power** for +- 14 seconds.
+### Contact [@antoshkagsm](https://t.me/antoshkagsm) to restore your device
 
 </details>
 
-### Reflashing your rom with MiFlash
-> [!Warning]
-> These tools only flash the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
-- Reboot to fastboot mode.
-- Flash the fastboot rom a second time using **MiFlash** or with the **flash_all.bat** file in the rom.
-- Reboot after it finishes flashing.
+---
 
 #### Success!
 Your Xiaomi Pad 5 should now be successfully restored to its original working state!

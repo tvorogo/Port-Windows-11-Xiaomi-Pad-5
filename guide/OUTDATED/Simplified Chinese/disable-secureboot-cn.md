@@ -9,7 +9,7 @@
 ### 先决条件
 - ```大脑```
 
-- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 

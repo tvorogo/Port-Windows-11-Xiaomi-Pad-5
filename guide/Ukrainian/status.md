@@ -1,7 +1,7 @@
 # Статус проєкту
 
-- Поточна версія **драйвера**: **v2601.19**
-- Поточна версія **UEFI**: **v2601.19**
+- Поточна версія **драйвера**: **v2608.03**
+- Поточна версія **UEFI**: **v2608.03**
 
 # Простий статус
 
@@ -48,7 +48,7 @@
 ## 🪵 USB & Зарядка
 
 > [!Note]
-> На пристроях **SM8150** пристрій не може перемикати режим USB у Windows, тому для цього потрібна утиліта [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (новіша) або [usbhostmodenative tool](https://github.com/n00b69/usbhostmode).
+> На пристроях **SM8150** пристрій не може перемикати режим USB у Windows, тому для цього потрібна утиліта [USB Mode Control tool](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) (новіша) або [usbhostmodenative tool](https://github.com/n00b69/usbhostmode).
 
 | Функція                        | Примітки                                                          | Статус         |
 |--------------------------------|-------------------------------------------------------------------|----------------|

@@ -10,7 +10,7 @@
 
 
 <details>
-  <summary><strong>Способ 1 (требуется root-доступ)</strong></summary>  
+  <summary><strong>Способ 1 (требуется root)</strong></summary>  
   
 ### Требования
 - [Приложение WOA Helper](https://github.com/n00b69/woa-helper/releases/tag/APK)
@@ -32,7 +32,7 @@
 
 
 <details>
-  <summary><strong>Способ 2 (не требует прав суперпользователя)</strong></summary>  
+  <summary><strong>Способ 2 (не требует root)</strong></summary>  
   
 ### Требования
 - [Модифицированный образ recovery](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)

@@ -7,7 +7,7 @@
 ### 준비물
 - ```뇌```
 
-- [```드라이브 문자 할당 프로그램```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```드라이브 문자 할당 프로그램```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
   
 - [```ARM 윈도우 esd```](https://arkt-7.github.io/woawin/)
     

@@ -9,7 +9,7 @@
 #### 先决条件
 
 - ```大脑```
-- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
 - [```驱动包```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 

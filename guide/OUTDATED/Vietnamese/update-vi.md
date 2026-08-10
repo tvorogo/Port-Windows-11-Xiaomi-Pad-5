@@ -13,7 +13,7 @@
 
 - [`Modified recovery image`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
 
 - [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 

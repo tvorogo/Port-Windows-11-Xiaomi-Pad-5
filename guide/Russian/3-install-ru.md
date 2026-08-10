@@ -7,7 +7,7 @@
 ### Требования
 - ```Мозг```
 
-- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
   
 - [```Windows ARM ESD```](https://arkt-7.github.io/woawin/)
     

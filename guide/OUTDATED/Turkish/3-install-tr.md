@@ -9,7 +9,7 @@
 ### Gerekli Dosyalar
 - ```Beyin```
 
-- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
 
 - [```ARM Windows esd```](https://arkt-7.github.io/woawin/)
   
@@ -29,7 +29,7 @@ adb shell msc
 
 ### WINNABU ve ESPNABU bölümlerine harf atayın 
 
-> **X** ve **Y** harflerini tabletin **WINNABU** ve **ESPNABU** bölümlerine otomatik olarak atayabilmesi için **[```DriveLetterAssigner scriptini```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) çalıştırın ve klavyede "Y" tuşuna basın**
+> **X** ve **Y** harflerini tabletin **WINNABU** ve **ESPNABU** bölümlerine otomatik olarak atayabilmesi için **[```DriveLetterAssigner scriptini```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner) çalıştırın ve klavyede "Y" tuşuna basın**
 
 ### Windows'u kurun
 > [!Important]
@@ -52,7 +52,7 @@ dism /apply-image /ImageFile:<bulunduğu\yol\install.esd> /index:6 /ApplyDir:X:\
 > Bir harf girmenizi isterse, **WINNABU** sürücü harfini girin (bu harf X olmalıdır), ardından enter tuşuna basın
 
 #### EFI için Windows bootloader dosyalarını oluşturun
-> Boot dosyaları kopyalanırken bir hata oluşursa, yalnızca [```DriveLetterAssigner'ı```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner) yeniden çalıştırın (bu ESPNABU'ya U harfini atayacaktır), ardından komuttaki **Y** harfini **U** ile değiştirerek aşağıdaki komutu tekrar çalıştırın
+> Boot dosyaları kopyalanırken bir hata oluşursa, yalnızca [```DriveLetterAssigner'ı```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner) yeniden çalıştırın (bu ESPNABU'ya U harfini atayacaktır), ardından komuttaki **Y** harfini **U** ile değiştirerek aşağıdaki komutu tekrar çalıştırın
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
 ```

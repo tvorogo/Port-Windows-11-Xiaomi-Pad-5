@@ -5,11 +5,10 @@
 ## Disabling secureboot
 
 > [!WARNING]
-> This guide is only for driver versions lower than 2601.19.
+> The latest driver and UEFI release, [v2608.03](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/tag/2608.03), includes a noSB UEFI image. If you are using an older driver release, use the noSB UEFI image that matches that release. Do not mix UEFI and driver versions.
 
-
-> [!Important]
-> Follow this guide only if you want to disable secureboot.
+> [!IMPORTANT]
+> Follow this guide only if you want to disable Secure Boot.
 
 ### Prerequisites
 - ```Brain```
@@ -18,7 +17,7 @@
 
 - [```Recovery Image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```UEFI image (Secureboot off)```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/2501.27/nabu-uefi-v4-fixed_NOSB.img)
+- [```UEFI image (Secure Boot off)```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2608.03/MiPad5.UEFI-v2608.03_nSB.img)
 
 ## Pros and cons of secureboot
 > By default, secureboot is enabled in this guide
@@ -26,14 +25,14 @@
 ##### Pros and cons of secureboot
 - √ No watermark on homescreen
 - √ Apps that do not work with Test Mode will work
-- √ You can update big versions (e.g 22h2 to 23h2) in Windows update directly
+- √ You can update big versions (e.g 24H2 to 25H2) in Windows update directly
 - × You cannot install unsigned drivers
 
 ##### Pros and cons of secureboot disabled
 - √ You can install unsigned drivers
 - × Test mode watermark on homescreen
 - × Some apps/games with anti-cheat software may not work
-- × You cannot update big versions (e.g 22h2 to 23h2) through Windows Update
+- × You cannot update big versions (e.g 24H2 to 25H2) through Windows Update
 
 ## Disabling secureboot
 
@@ -103,9 +102,11 @@ adb reboot bootloader
 ```
 
 #### Flashing the UEFI
-> Make sure you use the no secureboot UEFI from this page, replace <path\to\uefi-NoSecureboot-v4.img> with the actual path to the UEFI image
+> Make sure you use the matching noSB UEFI image from this page.
+>
+> For v2608.03, replace `<path\to\MiPad5.UEFI-v2608.03_nSB.img>` with the actual path to the image. If you use an older driver release, use its matching noSB UEFI filename instead.
 ```cmd
-fastboot flash boot <path\to\uefi-NoSecureboot-v4.img>
+fastboot flash boot <path\to\MiPad5.UEFI-v2608.03_nSB.img>
 ```
 
 > [!Important]

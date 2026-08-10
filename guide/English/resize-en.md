@@ -9,7 +9,7 @@
 
 -  ```Brain```
 
-- [```PowerStateControl tool```](https://github.com/Misha803/My-Scripts/releases/tag/PowerStateControl)
+- [```PowerStateControl tool```](https://github.com/Misha803/WOA-Tools/releases/tag/PowerStateControl)
 
 - [```createandformatuserdata.exe```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)
 
@@ -42,14 +42,19 @@
 
 ---
 
-### Disabling hibernation using PowerStateControl tool  
+### Disabling Hibernation and Page File using PowerStateControl
 > [!NOTE]  
-> You can skip this step if you already have hibernation disabled  
+> You can skip this step if you already have hibernation and the page file disabled.
 
-#### Disable hibernation  
-- Run downloaded **`PowerStateControl`** tool   
-- Click **`HIBERNATION: ENABLED/DISABLED`** button once  
-- Click **`EXIT`** button and confirm reboot - click **`REBOOT NOW`** button in reboot dialog
+> [!Important]
+> After finishing the resizing process, it is highly recommended to use the tool to enable the Page File back.
+
+#### Use the tool
+- Run the downloaded **`PowerStateControl_V2.0.exe`** tool.
+- Click the **`Hibernation`** toggle to turn it off.
+- Click the **`Page File (Swap)`** toggle to turn it off.
+- Click the **`APPLY`** button.
+- Click the **`EXIT`** button and confirm the reboot by clicking **`REBOOT NOW`** in the reboot dialog.
 
 ---
 
@@ -77,7 +82,7 @@
 - Download [`createandformatuserdata.exe`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/Files/createandformatuserdata.exe)  
 - Run it by double-clicking it  
 > It will automatically detect free space left and create new **`userdata`**  partition
-- Wait for confirmation message (e.g. “Done”)  
+- Wait for confirmation message (e.g. "Done")
 - Close the tool  
 
 ---

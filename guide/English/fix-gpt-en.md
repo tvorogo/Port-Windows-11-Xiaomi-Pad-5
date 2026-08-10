@@ -5,7 +5,7 @@
 ## Fix the GPT to use Windows 24H2 safely
 
 ### Prerequisites:
-- [```Already installed Windows```](selection-en.md)
+- [```Already installed Windows```](installation-selection-en.md)
 
 - [```Recovery image```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 

@@ -7,7 +7,7 @@
 ### Chuẩn bị
 - ```🧠 Một cái đầu lạnh trước sóng gió của cuộc đời```
 
-- [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     

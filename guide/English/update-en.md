@@ -3,8 +3,7 @@
 # Running Windows on the Xiaomi Pad 5
 
 > [!NOTE]
-> This guide **is not recommended for updating drivers to version 2601.19**.  
-> Using it to update to this version may result in issues or system instability as the maintainer says.
+> This guide is not recommended for updating an installation from an older driver release. Updating an older installation may result in an incorrect configuration or system instability.
 
 ## Updating drivers
 
@@ -13,7 +12,7 @@
 
 - [`Modified recovery image`](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
 
-- [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)
 
 - [`UEFI image & Drivers`](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 

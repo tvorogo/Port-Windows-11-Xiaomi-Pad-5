@@ -11,7 +11,7 @@
 
 ### Требования
 
-- ```Существующие разделы для Windows и загрузки``` (*если их нет, [используйте данную инструкцию](/guide/Russian/partition-ru.md)*)
+- ```Существующие разделы для Windows и загрузки``` (*если их нет, [используйте данную инструкцию](1-partition-ru.md)*)
   
 - [```Образ recovery```](https://github.com/ArKT-7/twrp_device_xiaomi_nabu/releases/tag/mod-win)
   

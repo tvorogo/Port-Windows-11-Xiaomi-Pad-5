@@ -7,7 +7,7 @@
 ### Prerequisites
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
 
-- [```UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2601.19/MiPad5.UEFI-v2601-19.img)
+- [```UEFI image```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases/download/2608.03/MiPad5.UEFI-v2608.03.img)
 
 - [```WoA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 

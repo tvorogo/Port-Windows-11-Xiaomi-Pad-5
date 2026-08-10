@@ -9,7 +9,7 @@
 ### Необхідні файли
 - [```Windows ARM esd```](https://arkt-7.github.io/woawin/)
 
-- [```DriveLetterAssinger```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)  
+- [```DriveLetterAssinger```](https://github.com/Misha803/WOA-Tools/releases/tag/DriveLetterAssigner)  
 
 - [```Драйвери & UEFI образ```](https://github.com/remtrik-stuff/MiPad5-Windows-Releases/releases)
 

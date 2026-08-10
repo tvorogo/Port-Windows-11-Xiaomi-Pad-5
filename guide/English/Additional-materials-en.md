@@ -29,10 +29,12 @@
 ### Set up Android boot.img auto-flashing
 
 >[!NOTE]
-> Set up Android boot.img auto-flashing on Windows boot or when the battery is low (<15%/20%) to prevent battery dies with uefi.img flashed. 
+> Use Android boot.img auto-flashing on Windows boot or when the battery is low to prevent the battery from dying while `uefi.img` is flashed.
 
-- Download the **boot.img auto-flasher** [here](https://github.com/Misha803/My-Scripts/releases/tag/boot.img-Auto-Flasher).
-- Run it, click **INSTALL** button, select when should Android boot.img be auto-flashed (on Windows boot/Low battery) and wait for installation to complete.
+- Download the latest **boot.img Auto-Flasher** [here](https://github.com/Misha803/WOA-Tools/releases/tag/boot.img-Auto-Flasher).
+- Run it and follow the setup wizard to choose when Android `boot.img` should be auto-flashed.
+- Use the battery slider to choose the threshold from **10% to 30%**.
+> If the service is already installed, use **`REINSTALL/UPDATE`** to update it.
 
 #### Finished! 
 
@@ -40,7 +42,7 @@
 > [!Warning]
 > Disable USB host mode if you use a powered USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
 
-- Run [USB Mode Control tool](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) to toggle USB mode between HOST and DEVICE (enable or disable USB host mode).
+- Run [USB Mode Control tool](https://github.com/Misha803/WOA-Tools/releases/tag/USB-Host-Mode-Control) (newer) or [usbhostmodenative tool](https://github.com/n00b69/usbhostmode) to toggle USB mode between HOST and DEVICE (enable or disable USB host mode).
 - If USB is currently in HOST mode and USB does not work, switch it to DEVICE, then back to HOST.
 
 #### Finished!
